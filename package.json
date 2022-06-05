@@ -1,0 +1,25 @@
+{
+  "name": "stats-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajose-malik/stats-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajose-malik/stats-ts/issues"
+  },
+  "homepage": "https://github.com/ajose-malik/stats-ts#readme",
+  "dependencies": {
+    "@types/node": "^17.0.40"
+  }
+}
