@@ -8,4 +8,3 @@ class Summary {
     }
 }
 exports.Summary = Summary;
-new Summary(new WinAnalysis(), new ConsoleReport());

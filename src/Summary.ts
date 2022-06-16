@@ -11,5 +11,3 @@ export interface OutputTarget {
 export class Summary {
   constructor(public analyzer: Analyzer, public outputTarget: OutputTarget){}
 }
-
-new Summary(new WinAnalysis(), new ConsoleReport())
